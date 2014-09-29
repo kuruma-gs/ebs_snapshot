@@ -1,0 +1,21 @@
+# アクセスキー
+access_key: XXXXXXXXXXXXXXXXXXXXXXXX
+secret_key: xxxxxxxxxxxxxxxxxxxxxxxx
+
+# リージョン
+region: ap-northeast-1
+
+# 対象のボリューム
+volume_id: vol-xxxxxxxxx
+
+# 説明
+description: "ANIPLA(production)"
+
+# ログファイル。/で始まらない場合は、設定ファイルからの相対パス。
+log_file: log/anipla_production_daily.log
+
+# 何個残すか。
+rotate: 5
+
+# 同じボリュームの同じタグがついてるものをローテート。
+rotate_tag: "[daily]"
